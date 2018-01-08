@@ -10,4 +10,8 @@ function double(array) {
     return list.filter(item => typeof item === 'number');
   }
 
-  //
+  // Calculate Average
+
+  function find_average(array) {
+    return (array.reduce((acc, cur) => acc + cur))/array.length;
+  }
